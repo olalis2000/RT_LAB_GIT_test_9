@@ -9,7 +9,7 @@
  *
  * Model version              : 7.1
  * Simulink Coder version : 9.6 (R2021b) 14-May-2021
- * C source code generated on : Thu Oct 31 13:47:23 2024
+ * C source code generated on : Thu Oct 31 14:15:28 2024
  *
  * Target selection: rtlab_rtmodel.tlc
  * Note: GRT includes extra infrastructure and instrumentation for prototyping

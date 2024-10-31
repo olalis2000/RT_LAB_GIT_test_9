@@ -1,11 +1,11 @@
-=== Circuit built on 2024-10-31 01:47:19 ===
+=== Circuit built on 2024-10-31 02:15:27 ===
 
 === General ===
 
     EFPGASIM : v2.20.1.RC1
     Unified Database : 4.2.0
     Schematic Editor : v3.0.0
-    Output Path : C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\EFPGASIMConfig\logs\Boost2lvl_SFun
+    Output Path : C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\EFPGASIMConfig\logs\Boost2lvl_SFun
     Setup name : OP5707
     Bitstream File : VC707_2-EX-0001-3_6_0_818-eHSx128_Gen4_Machines_IOConfig1-35-61.bin
     Circuit : Boost2lvl_SFun

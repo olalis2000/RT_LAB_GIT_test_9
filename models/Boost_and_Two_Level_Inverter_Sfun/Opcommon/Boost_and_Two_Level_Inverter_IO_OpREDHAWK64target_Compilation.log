@@ -1,14 +1,14 @@
 
 -------------------- Starting compilation --------------------
-Start at : Thursday, October 31, 2024, 13:45:11
+Start at : Thursday, October 31, 2024, 14:14:38
 
 The current RT-LAB version is:  v2024.3.2.48
-The current model is:           C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\Boost_and_Two_Level_Inverter_IO.slx
+The current model is:           C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\Boost_and_Two_Level_Inverter_IO.slx
 The current host platform is:   Windows
 The current target platform is: OPAL-RT Linux (x64-based)
 The current compiler is:        Automatic
 The target OS version is:       OPAL-RTLinux 3.5.4 (4.19.80-opalrtlinux)
-Separating model because it has never been built
+Separating model because C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\Boost_and_Two_Level_Inverter_IO.slx has changed.
 Preparing original model for code separation and generation...
 The current Matlab version is:  v9.11 (64 Bit) (R2021B)
 
@@ -18,10 +18,10 @@ Separating RT-LAB model (number of RT subsystems = 1, console detected).
 Separating RT-LAB subsystem 'SM_Controller'.
 Separating RT-LAB subsystem 'SC_eHS'.
 
-Model preparation and separation duration : 00h:01m:16s
+Model preparation and separation duration : 00h:00m:30s
 -------------------- Completed successfully --------------------
 
-Generating model because setting 'platform' has changed.
+Generating model because C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\Opcommon\boost_and_two_level__1_sm_controller.slx has changed.
 
 -------------------- Generating C code --------------------
 
@@ -33,7 +33,7 @@ Using Template Makefile (TMF file) : rtlab_rtmodel.tmf...
 Calling RTW Make Command make_rtw...
 ### Starting build procedure for: boost_and_two_level__1_sm_controller
 ### Generating code and artifacts to 'Model specific' folder structure
-### Generating code into build folder: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level__1_sm_controller_rtlab
+### Generating code into build folder: C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level__1_sm_controller_rtlab
 
 IGNFiles =
 
@@ -75,22 +75,23 @@ fileTransfer =
 ...............................................................................
 ...............................................................................
 ...............................................................................
-..
+.
 ### Writing header file boost_and_two_level__1_sm_controller_types.h
+.
 ### Writing header file boost_and_two_level__1_sm_controller.h
 ### Writing header file rtwtypes.h
 ### Writing header file builtin_typeid_types.h
 ### Writing header file multiword_types.h
 ### Writing header file zero_crossing_types.h
-.
 ### Writing header file rtGetInf.h
+.
 ### Writing source file rtGetInf.c
 ### Writing header file rt_nonfinite.h
 ### Writing source file rt_nonfinite.c
 ### Writing header file rtGetNaN.h
 ### Writing source file rtGetNaN.c
-.
 ### Writing source file boost_and_two_level__1_sm_controller.c
+.
 ### Writing header file boost_and_two_level__1_sm_controller_private.h
 ### Writing header file rtmodel.h
 ### Writing source file boost_and_two_level__1_sm_controller_data.c
@@ -100,12 +101,12 @@ fileTransfer =
 Version 9.6 (R2021b) 14-May-2021
 ### Creating model mapping file boost_and_two_level__1_sm_controller.map using opal_map_file.tlc
 ...............................................................................
-............................................................### Saving binary information cache.
+...........................................................### Saving binary information cache.
 .
 ### Processing Template Makefile: C:\OPAL-RT\RT-LAB\v2024.3.2.48\Simulink\rtw\c\common\rtlab_rtmodel.tmf
-### Created makefile C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level__1_sm_controller_rtlab\boost_and_two_level__1_sm_controller.mk
+### Created makefile C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level__1_sm_controller_rtlab\boost_and_two_level__1_sm_controller.mk
 ### Successful completion of code generation for: boost_and_two_level__1_sm_controller
-### Simulink cache artifacts for 'boost_and_two_level__1_sm_controller' were created in 'C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level__1_sm_controller.slxc'.
+### Simulink cache artifacts for 'boost_and_two_level__1_sm_controller' were created in 'C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level__1_sm_controller.slxc'.
 
 Build Summary
 
@@ -116,11 +117,11 @@ Model                                 Action          Rebuild Reason
 boost_and_two_level__1_sm_controller  Code generated  Code generation information file does not exist.  
 
 1 of 1 models built (0 models already up to date)
-Build duration: 0h 0m 29.77s
+Build duration: 0h 0m 7.742s
 
 
-boost_and_two_level__1_sm_controller : Generating C code duration : 00h:00m:42s
-Generating C code total duration : 00h:00m:42s
+boost_and_two_level__1_sm_controller : Generating C code duration : 00h:00m:14s
+Generating C code total duration : 00h:00m:14s
 
 -------------------- Completed successfully --------------------
 
@@ -143,7 +144,7 @@ Closing Matlab... OK.
 Creating DataLoggers...
  - SM_Controller... OK
 Updating dependencies... OK.
-Compiling model because setting 'platform' has changed.
+Compiling model because C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\settings.json has changed.
 
 -------------------- Validating sources files --------------------------
 
@@ -156,26 +157,26 @@ Compiling model because setting 'platform' has changed.
 Connecting to 10.168.11.81 ... OK.
 Transferring in ascii mode C:\OPAL-RT\RT-LAB\v2024.3.2.48\Simulink/rtw/c/common/linux64.opt ... OK.
 Transferring in ascii mode C:\OPAL-RT\RT-LAB\v2024.3.2.48\Simulink/rtw/c/common/posix.rules ... OK.
-Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\settings.json (SM_Controller) ... OK.
-Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\boost_and_two_level__1_sm_controller*.c (SM_Controller) ... OK.
-Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\boost_and_two_level__1_sm_controller*.h (SM_Controller) ... OK.
-Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\rtGet*.h (SM_Controller) ... OK.
-Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\rtGet*.c (SM_Controller) ... OK.
-Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\boost_and_two_level__1_sm_controller.mk (SM_Controller) ... OK.
-Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\rt_*.c (SM_Controller) ... OK.
-Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\rt_*.h (SM_Controller) ... OK.
-Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\zero_crossing_types*.h (SM_Controller) ... OK.
-Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\builtin_typeid_types*.h (SM_Controller) ... OK.
-Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\multiword_types*.h (SM_Controller) ... OK.
-Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\rtwtypes.h (SM_Controller) ... OK.
-Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\rtmodel.h (SM_Controller) ... OK.
-Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\drive_boost_and_two_level__1_sm_controller*.c (SM_Controller) ... OK.
-Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\drive_boost_and_two_level__1_sm_controller*.h (SM_Controller) ... OK.
-Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\Opal*.c (SM_Controller) ... OK.
-Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\ssc_ml_fun*.h (SM_Controller) ... OK.
-Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\slprj\rtlab_rtmodel\_sharedutils\*.c (SM_Controller) ... OK.
-Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\slprj\rtlab_rtmodel\_sharedutils\*.h (SM_Controller) ... OK.
-Transferring in ascii: C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\slprj\rtlab_rtmodel\_sharedutils\*.mk (SM_Controller) ... OK.
+Transferring in ascii: C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\settings.json (SM_Controller) ... OK.
+Transferring in ascii: C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\boost_and_two_level__1_sm_controller*.c (SM_Controller) ... OK.
+Transferring in ascii: C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\boost_and_two_level__1_sm_controller*.h (SM_Controller) ... OK.
+Transferring in ascii: C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\rtGet*.h (SM_Controller) ... OK.
+Transferring in ascii: C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\rtGet*.c (SM_Controller) ... OK.
+Transferring in ascii: C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\boost_and_two_level__1_sm_controller.mk (SM_Controller) ... OK.
+Transferring in ascii: C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\rt_*.c (SM_Controller) ... OK.
+Transferring in ascii: C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\rt_*.h (SM_Controller) ... OK.
+Transferring in ascii: C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\zero_crossing_types*.h (SM_Controller) ... OK.
+Transferring in ascii: C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\builtin_typeid_types*.h (SM_Controller) ... OK.
+Transferring in ascii: C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\multiword_types*.h (SM_Controller) ... OK.
+Transferring in ascii: C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\rtwtypes.h (SM_Controller) ... OK.
+Transferring in ascii: C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\rtmodel.h (SM_Controller) ... OK.
+Transferring in ascii: C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\drive_boost_and_two_level__1_sm_controller*.c (SM_Controller) ... OK.
+Transferring in ascii: C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\drive_boost_and_two_level__1_sm_controller*.h (SM_Controller) ... OK.
+Transferring in ascii: C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\Opal*.c (SM_Controller) ... OK.
+Transferring in ascii: C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\OpREDHAWK64target\ssc_ml_fun*.h (SM_Controller) ... OK.
+Transferring in ascii: C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\slprj\rtlab_rtmodel\_sharedutils\*.c (SM_Controller) ... OK.
+Transferring in ascii: C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\slprj\rtlab_rtmodel\_sharedutils\*.h (SM_Controller) ... OK.
+Transferring in ascii: C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\boost_and_two_level_inverter_io_sm_controller\slprj\rtlab_rtmodel\_sharedutils\*.mk (SM_Controller) ... OK.
 
 Transferring common RT-LAB files:
 Transferring in ascii: C:\OPAL-RT\RT-LAB\v2024.3.2.48\Simulink\rtw\c\common\model_main.c (SM_Controller) ... OK.
@@ -201,21 +202,21 @@ g++  -Wl,-rpath='/usr/opalrt/v2024.3.2.48/common/bin' -Wl,'-rpath=/usr/opalrt/v2
 chmod a+x boost_and_two_level__1_sm_controller
 ### Created executable: boost_and_two_level__1_sm_controller
 
-boost_and_two_level__1_sm_controller : Building subsystem duration : 00h:00m:03s
+boost_and_two_level__1_sm_controller : Building subsystem duration : 00h:00m:02s
 
-Building model total duration : 00h:00m:03s
+Building model total duration : 00h:00m:02s
 -------------------- Completed successfully --------------------
 
 -------------------- Transferring the built model --------------------
 Connecting to 10.168.11.81 ... OK.
-Transferring in binary mode /home/desktop-pgc7bak/c/users/ortg/documents/files/rt_lab_git_test_9/models/boost_and_two_level_inverter_sfun/boost_and_two_level_inverter_io_sm_controller/boost_and_two_level__1_sm_controller ... OK.
-Transferring in ascii mode /home/desktop-pgc7bak/c/users/ortg/documents/files/rt_lab_git_test_9/models/boost_and_two_level_inverter_sfun/compilation_target_report.xml ... OK.
+Transferring in binary mode /home/ger-d-06045/c/users/grogu/documents/aleksandra/rt_lab_git_test_9/models/boost_and_two_level_inverter_sfun/boost_and_two_level_inverter_io_sm_controller/boost_and_two_level__1_sm_controller ... OK.
+Transferring in ascii mode /home/ger-d-06045/c/users/grogu/documents/aleksandra/rt_lab_git_test_9/models/boost_and_two_level_inverter_sfun/compilation_target_report.xml ... OK.
 
-File transfer duration : 00h:00m:00s
+File transfer duration : 00h:00m:01s
 -------------------- Completed successfully --------------------
 
-End at : Thursday, October 31, 2024, 13:48:01
+End at : Thursday, October 31, 2024, 14:15:45
 
-Compilation duration : 00h:02m:50s
+Compilation duration : 00h:01m:07s
 
 Updating status for next build...OK

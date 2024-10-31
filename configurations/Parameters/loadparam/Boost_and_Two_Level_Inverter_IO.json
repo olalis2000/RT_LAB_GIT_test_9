@@ -4,7 +4,7 @@
     "Opal::Simulation::LoadParamSet":
     {
       "loadParam":"false",
-      "modelPath":"C:/Users/ORTG/Documents/Files/RT_LAB_GIT_test_9/models/Boost_and_Two_Level_Inverter_Sfun/Boost_and_Two_Level_Inverter_IO.slx",
+      "modelPath":"C:/Users/Grogu/Documents/Aleksandra/RT_LAB_GIT_test_9/models/Boost_and_Two_Level_Inverter_Sfun/Boost_and_Two_Level_Inverter_IO.slx",
       "name":"/Boost_and_Two_Level_Inverter_IO.slx",
       "owner":"8ACA83D2-7DC4-4914-8424-1756B42F0ECC",
       "parent":""
@@ -18,7 +18,7 @@
           "item":
           {
             "key":"file",
-            "value":"C:/Users/ORTG/Documents/Files/RT_LAB_GIT_test_9/models/Boost_and_Two_Level_Inverter_Sfun/Boost_and_Two_Level_Inverter_IO.slx"
+            "value":"C:/Users/Grogu/Documents/Aleksandra/RT_LAB_GIT_test_9/models/Boost_and_Two_Level_Inverter_Sfun/Boost_and_Two_Level_Inverter_IO.slx"
           }
         },
         {

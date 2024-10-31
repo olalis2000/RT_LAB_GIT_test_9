@@ -1,14 +1,14 @@
 [General]
-ATT_CHECKSUM1=4152012539
-ATT_CHECKSUM2=1728994451
-ATT_CHECKSUM3=3110997712
-ATT_CHECKSUM4=2272674398
+ATT_CHECKSUM1=3742477860
+ATT_CHECKSUM2=2120749876
+ATT_CHECKSUM3=608776185
+ATT_CHECKSUM4=2107877446
 ATT_CREATED_BY=PYRobert
 ATT_CREATED_ON=Tue Jul 19 15:11:11 2005
 ATT_ENABLE_PTA=OFF
 ATT_HANDLE_CONSOLE=ON
-ATT_LAST_SAVED_BY=ORTG
-ATT_LAST_SAVED_ON=Thu Oct 31 13:44:33 2024
+ATT_LAST_SAVED_BY=Grogu
+ATT_LAST_SAVED_ON=Thu Oct 31 14:14:20 2024
 ATT_REFERENCE_MDL_PATHS=
 ATT_REVISION=7.0
 AutoRetrieveFiles=ON
@@ -19,7 +19,7 @@ EXATACPS_AUTORUN=FALSE
 EXATACPS_AUTOSTOP=FALSE
 EXATACPS_EXE=
 EXATACPS_SCENARIO=::json::
-FILENAME=C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\Boost_and_Two_Level_Inverter_IO.slx
+FILENAME=C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\Boost_and_Two_Level_Inverter_IO.slx
 FORCE_RECOMPILE=0
 IMPORTED_GLOBAL_VARIABLES=1
 LastCompileRtlabVersion=v2024.3.2.48
@@ -86,6 +86,12 @@ SYSNAME=linux
 USER_INCS=
 USER_SRCS=
 WATCHDOG_TIMEOUT=5000
+[ExtraPutFilesComp_1_RT_LAB]
+C:\OPAL-RT\eFPGASIM\v2.20.1.RC1\Simulink\efs_R2021b\redhawk64\libEfsSolver_cfgR2021b.a=Binary|Other
+[ExtraPutFilesLoad_1_RT_LAB]
+.\EFPGASIMConfig\addon_drivers_15531.mat=Binary|Other
+C:\OPAL-RT\eFPGASIM\v2.20.1.RC1\Common\fpgalib\firmwares\VC707_2-EX-0001-3_6_0_818-eHSx128_Gen4_Machines_IOConfig1-35-61.bin=Binary|Other
+C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\VC707_2-EX-0001-3_6_0_818-eHSx128_Gen4_Machines_IOConfig1-35-61.fsd=Ascii|Other
 [EnvVars_REDHAWK64_DYN_1]
 FLASH_UPDATE_OPTIONS= -pci 0 0 -1
 FPGA_BITSTREAM_INFO=VC707_2-EX-0001-3_6_0_818-eHSx128_Gen4_Machines_IOConfig1-35-61.bin
@@ -93,9 +99,3 @@ INTERNAL_IGN_SOURCE_FILE=sfun_fct_op7160ex1_recv.c sfun_op7160ex1_pwm_out.c sfun
 INTERNAL_LIBRARY1=-lOpalIoFcnOP7160R2021B -lOpalIoCtrlOP7160R2021B
 INTERNAL_LIBRARY2=-lOpalOP7160 -lOpalOpSystem -lOpalIoSysR2021B
 INTERNAL_LIBRARY3=-lEfsSolver_cfgR2021b
-[ExtraPutFilesComp_1_RT_LAB]
-C:\OPAL-RT\eFPGASIM\v2.20.1.RC1\Simulink\efs_R2021b\redhawk64\libEfsSolver_cfgR2021b.a=Binary|Other
-[ExtraPutFilesLoad_1_RT_LAB]
-.\EFPGASIMConfig\addon_drivers_15531.mat=Binary|Other
-C:\OPAL-RT\eFPGASIM\v2.20.1.RC1\Common\fpgalib\firmwares\VC707_2-EX-0001-3_6_0_818-eHSx128_Gen4_Machines_IOConfig1-35-61.bin=Binary|Other
-C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\VC707_2-EX-0001-3_6_0_818-eHSx128_Gen4_Machines_IOConfig1-35-61.fsd=Ascii|Other

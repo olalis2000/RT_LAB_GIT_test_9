@@ -2,12 +2,12 @@
 <Project>
     <General>
         <att_name>RT_LAB_GIT_test_9</att_name>
-        <att_description></att_description>
-        <att_ip_address>10.168.10.106:25261</att_ip_address>
-        <att_hashcode>EA673A54-AADA-44D7-BB92-55FA8D7796B1</att_hashcode>
+        <att_description>This is a project!</att_description>
+        <att_ip_address>10.168.24.60:25264</att_ip_address>
+        <att_hashcode>84012E85-870E-4547-B36F-CDEA36ED6B08</att_hashcode>
         <att_autosave>ON</att_autosave>
         <att_project_locked>0</att_project_locked>
-        <att_filename>C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_9\RT_LAB_GIT_test_9.llp</att_filename>
+        <att_filename>C:\Users\Grogu\Documents\Aleksandra\RT_LAB_GIT_test_9\RT_LAB_GIT_test_9.llp</att_filename>
     </General>
     <Optionals>
         <att_donotask_loadcfg_at_prjopen>0</att_donotask_loadcfg_at_prjopen>
@@ -18,8 +18,8 @@
         <Model>
             <Path>
                 <Relative>models/Boost_and_Two_Level_Inverter_Sfun/Boost_and_Two_Level_Inverter_IO.slx</Relative>
-                <Absolute>C:/Users/ORTG/Documents/Files/RT_LAB_GIT_test_9/models/Boost_and_Two_Level_Inverter_Sfun/Boost_and_Two_Level_Inverter_IO.slx</Absolute>
-                <UNC>C:/Users/ORTG/Documents/Files/RT_LAB_GIT_test_9/models/Boost_and_Two_Level_Inverter_Sfun/Boost_and_Two_Level_Inverter_IO.slx</UNC>
+                <Absolute>C:/Users/Grogu/Documents/Aleksandra/RT_LAB_GIT_test_9/models/Boost_and_Two_Level_Inverter_Sfun/Boost_and_Two_Level_Inverter_IO.slx</Absolute>
+                <UNC>C:/Users/Grogu/Documents/Aleksandra/RT_LAB_GIT_test_9/models/Boost_and_Two_Level_Inverter_Sfun/Boost_and_Two_Level_Inverter_IO.slx</UNC>
             </Path>
         </Model>
     </Models>
