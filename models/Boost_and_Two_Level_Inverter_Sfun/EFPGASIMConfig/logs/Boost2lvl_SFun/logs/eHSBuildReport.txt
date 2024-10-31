@@ -1,0 +1,100 @@
+=== Circuit built on 2024-10-31 01:47:19 ===
+
+=== General ===
+
+    EFPGASIM : v2.20.1.RC1
+    Unified Database : 4.2.0
+    Schematic Editor : v3.0.0
+    Output Path : C:\Users\ORTG\Documents\Files\RT_LAB_GIT_test_9\models\Boost_and_Two_Level_Inverter_Sfun\EFPGASIMConfig\logs\Boost2lvl_SFun
+    Setup name : OP5707
+    Bitstream File : VC707_2-EX-0001-3_6_0_818-eHSx128_Gen4_Machines_IOConfig1-35-61.bin
+    Circuit : Boost2lvl_SFun
+
+=== Solver ===
+
+    Solver Generation : eHS Gen 4
+    Discretization Method : Backward Euler
+    Switch Interpolation : OFF
+    Effective Timestep (ns) : 230
+    Achievable Timestep Range (ns) : 230 - 4870
+    Estimated Solver Usage : 15 %
+    User Defined eHS Licence Class : x128
+    Firmware Core size : x128
+    Effective eHS Licence Class : x128
+    Solver Strategy : STANDARD
+    Number of States : 5 out of 344
+    Number of Switches : 9 out of 144
+    Number of total solver Sources : 4 out of 128
+    Number of total solver High Latency Outputs : 8 out of 128
+    Number of total solver Inductance (Series/Parallel/Mutual) : 4
+    Number of total solver Capacitance (Series/Parallel) : 1
+    Number of total solver Resistance : 23
+    Number of Mutual inductance's windings : 0
+    Number of Transformers' windings : 0
+
+=== Miscellaneous ===
+
+    Number of SWG Available : 32
+    Number of TSDO Channels : 2 out of 144
+    Number of AO mapped to measure block : 0
+    Number of SFPO mapped to measure block : 0
+
+=== IO connections informations ===
+
+    Analog Inputs : 0 out of 16
+
+    Analog Outputs : 0 out of 48
+
+    Digital Inputs : 4 out of 64
+        DI Slot 2A Channel 00
+            arm1 (g2)
+                Polarity : High
+        DI Slot 2A Channel 01
+            arm2 (g1)
+                Polarity : High
+            arm2 (g2)
+                Polarity : Low
+        DI Slot 2A Channel 02
+            arm3 (g1)
+                Polarity : High
+            arm3 (g2)
+                Polarity : Low
+        DI Slot 2A Channel 03
+            arm4 (g1)
+                Polarity : High
+            arm4 (g2)
+                Polarity : Low
+
+    SFP Inputs : 0 out of 32
+
+    SFP Outputs : 0 out of 32
+
+    Machine resolver outputs A, B and Z connection to digital out
+
+=== Details ===
+
+    Sources (Input lane : Name) : 
+        - Lane 0 : 
+            - 0 : vin
+            - 1 : vsrc1
+            - 2 : vsrc2
+            - 3 : vsrc3
+    Switches (Index : Name) : 
+        - 0 : arm1_g1
+        - 1 : arm1_g2
+        - 2 : arm2_g1
+        - 3 : arm2_g2
+        - 4 : arm3_g1
+        - 5 : arm3_g2
+        - 6 : arm4_g1
+        - 7 : arm4_g2
+        - 8 : fault_sw
+    High latency Outputs (Index : Name) : 
+        - 0 : 2Lvl_Ia
+        - 1 : 2Lvl_Ib
+        - 2 : 2Lvl_Ic
+        - 3 : 2Lvl_Va
+        - 4 : 2Lvl_Vb
+        - 5 : 2Lvl_Vc
+        - 6 : boost_I
+        - 7 : boost_V

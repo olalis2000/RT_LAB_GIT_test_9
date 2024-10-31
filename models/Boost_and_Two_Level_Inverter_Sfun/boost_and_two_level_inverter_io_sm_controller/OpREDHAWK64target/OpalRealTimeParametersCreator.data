@@ -1,0 +1,510 @@
+SM_Controller/Circuit_Input/Three-phase Sine Wave/Phase
+/
+
+0
+F64
+3
+SM_Controller/3ph_Sinewave_Angle_Generator/3ph Angle Generator/Adder_Gain/Gain
+/
+
+1
+F64
+1
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/LoadIn eHS Status/writeStatus/isResetNeeded/Compare To Constant/Constant/Value
+/
+
+2
+F64
+1
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/DataIn Driver/enable dataIn/Value
+/
+
+3
+F64
+1
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/LoadIn eHS Status/writeStatus/LoadIn Send/Detect Change/Delay Input1/InitialCondition
+/
+
+5
+U32
+1
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/DataIn Driver/driver/DataIn Format/FormatingGains/Gain
+/
+
+6
+F64
+4
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/DataIn Driver/driver/DataIn Format/Saturation/UpperLimit
+/
+
+7
+F64
+4
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/DataIn Driver/driver/DataIn Format/Saturation/LowerLimit
+/
+
+8
+F64
+4
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/DataIn Driver/driver/DataIn Send/DataIn Send/Data inport width [1..250]
+/
+
+14
+F64
+1
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/DataIn Driver/driver/DataIn Send/DataIn Send/Data inport type
+/
+
+16
+F64
+1
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/DataIn Driver/driver/DataIn Format/Constant/Value
+/
+
+25
+F64
+1
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/LoadIn eHS Status/writeStatus/LoadIn Send/LoadIn/LoadIn port width [1..250]
+/
+
+31
+F64
+1
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/LoadIn eHS Status/writeStatus/LoadIn Send/LoadIn/Data type
+/
+
+33
+F64
+1
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/DataOut Driver/Receive DataOut/DataOut Recv/DataOut port number [1..32] or [1..64] (see Help for details)
+/
+
+39
+F64
+1
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/DataOut Driver/Receive DataOut/DataOut Recv/Data outport width [1..250]
+/
+
+41
+F64
+1
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/DataOut Driver/Receive DataOut/DataOut Recv/Data outport type
+/
+
+43
+F64
+1
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/DataOut Driver/Receive DataOut/DataOut Recv/Sample Time (s)
+/
+
+45
+F64
+1
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/DataOut Driver/DataOut Format/DataOut Formatter/Constant/Value
+/
+
+54
+F64
+1
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/DataOut Driver/DataOut Format/DataOut Formatter/FormatingGains/Gain
+/
+
+55
+F64
+9
+SM_Controller/Circuit_Control/Control/Saturation/UpperLimit
+/
+
+62
+F64
+1
+SM_Controller/Circuit_Control/Control/Saturation/LowerLimit
+/
+
+63
+F64
+1
+SM_Controller/3ph_Sinewave_Angle_Generator/3ph Angle Generator/Constant3/Value
+/
+
+64
+F64
+1
+SM_Controller/3ph_Sinewave_Angle_Generator/3ph Angle Generator/Memory/InitialCondition
+/
+
+65
+F64
+1
+SM_Controller/3ph_Sinewave_Angle_Generator/3ph Angle Generator/Switch/Threshold
+/
+
+66
+F64
+1
+SM_Controller/Circuit_Control/Control/Three-phase Sine Wave/Amplitude
+/
+
+67
+F64
+1
+SM_Controller/Circuit_Control/Control/Three-phase Sine Wave/Bias
+/
+
+68
+F64
+1
+SM_Controller/Circuit_Control/Control/Three-phase Sine Wave/Frequency
+/
+
+69
+F64
+1
+SM_Controller/Circuit_Control/Control/Gain/Gain
+/
+
+70
+F64
+1
+SM_Controller/Circuit_Control/Control/Constant/Value
+/
+
+71
+F64
+1
+SM_Controller/Digital_Out/Gain/Gain
+/
+
+72
+F64
+3
+SM_Controller/Digital_Out/PWM Out/DataIn port number
+/
+
+77
+F64
+1
+SM_Controller/Digital_Out/PWM Out/Size
+/
+
+79
+F64
+1
+SM_Controller/Digital_Out/PWM Out/numchan - internal
+/
+
+81
+F64
+1
+SM_Controller/Digital_Out/PWM Out/Polarity
+/
+
+83
+F64
+1
+SM_Controller/Digital_Out/PWM Out/Carrier wave mode
+/
+
+85
+F64
+1
+SM_Controller/Digital_Out/PWM Out/Output complementary channel
+/
+
+87
+F64
+1
+SM_Controller/Digital_Out/PWM Out/Dead-time value
+/
+
+89
+F64
+4
+SM_Controller/Digital_Out/PWM Out/loadport-internal
+/
+
+91
+F64
+1
+SM_Controller/Digital_Out/PWM Out/Carrier phase control from an input
+/
+
+93
+F64
+1
+SM_Controller/Digital_Out/PWM Out/Dead-time control from an input
+/
+
+95
+F64
+1
+SM_Controller/Digital_Out/PWM Out/Initial phase
+/
+
+97
+F64
+4
+SM_Controller/Digital_Out/PWM Out/Maximum number of PWM signals controlled by this block
+/
+
+99
+F64
+1
+SM_Controller/Digital_Out/PWM Out/Allow disabling channel
+/
+
+101
+F64
+1
+SM_Controller/Circuit_Input/Three-phase Sine Wave/Amplitude
+/
+
+102
+F64
+1
+SM_Controller/Circuit_Input/Three-phase Sine Wave/Bias
+/
+
+103
+F64
+1
+SM_Controller/Circuit_Input/Three-phase Sine Wave/Frequency
+/
+
+104
+F64
+1
+SM_Controller/eHS1/ParameterSetToIndex/Memory/InitialCondition
+/
+
+105
+F64
+1
+SM_Controller/eHS1/ParameterSetToIndex/ParameterSetToIndexMap/Table
+/
+
+106
+F64
+2
+SM_Controller/eHS1/ParameterSetToIndex/ParameterSetToIndexMap/BreakpointsForDimension1
+/
+
+107
+F64
+2
+SM_Controller/g1/Value
+/
+
+108
+F64
+1
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/Gate Driver/ehsCpuGates/gates/send8Gates_00/shift/Gain
+/
+
+109
+F64
+8
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/Gate Driver/ehsCpuGates/gates/send8Gates_00/datain/Data inport width [1..250]
+/
+
+115
+F64
+1
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/Gate Driver/ehsCpuGates/gates/send8Gates_00/datain/Data inport type
+/
+
+117
+F64
+1
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/LoadIn Driver/Constant2/Value
+/
+
+126
+F64
+1
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/LoadIn Driver/LoadIn/eFPGAsim config port number [1...32]
+/
+
+130
+F64
+1
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/LoadIn Driver/LoadIn/eFPGAsim config file
+/
+
+132
+F64
+23
+SM_Controller/eHS1/eHSDrivers/IndexToParameterSet/Table
+/
+
+133
+F64
+1
+SM_Controller/OpCtrl/Controller Name
+/
+
+135
+F64
+6
+SM_Controller/OpCtrl/Board ID
+/
+
+137
+F64
+1
+SM_Controller/OpCtrl/Synchronization mode
+/
+
+139
+F64
+1
+SM_Controller/OpCtrl/Generate External Clock
+/
+
+141
+F64
+1
+SM_Controller/OpCtrl/Decimation factor
+/
+
+143
+F64
+1
+SM_Controller/OpCtrl/P6
+/
+
+145
+F64
+1
+SM_Controller/OpCtrl/Sample Time (s)
+/
+
+147
+F64
+1
+SM_Controller/OpCtrl/Enable calibration inputsoutputs
+/
+
+149
+F64
+1
+SM_Controller/OpCtrl/Configuration Number
+/
+
+151
+F64
+1
+SM_Controller/OpCtrl/loadinport
+/
+
+153
+F64
+1
+SM_Controller/OpCtrl/Board Type
+/
+
+155
+F64
+1
+SM_Controller/OpCtrl/Synchronization type
+/
+
+157
+F64
+1
+SM_Controller/OpCtrl/Enable FPGA Scope
+/
+
+159
+F64
+1
+SM_Controller/OpCtrl/Disable strict hardware mismatch validation
+/
+
+163
+F64
+1
+SM_Controller/Acquisition Trigger/Constant/Value
+/
+
+164
+F64
+1
+SM_Controller/Acquisition Trigger/Step/Time
+/
+
+165
+F64
+1
+SM_Controller/Acquisition Trigger/Step/Before
+/
+
+166
+F64
+1
+SM_Controller/Acquisition Trigger/Step/After
+/
+
+167
+F64
+1
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/DataOut Driver/DataOut Format/DataOut Formatter/Saturation/UpperLimit
+/
+
+174
+U32
+9
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/DataOut Driver/DataOut Format/DataOut Formatter/Saturation/LowerLimit
+/
+
+175
+U32
+9
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/DataOut Driver/DataOut Format/averagingDemux/Saturation/UpperLimit
+/
+
+176
+U32
+1
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/DataOut Driver/DataOut Format/averagingDemux/Saturation/LowerLimit
+/
+
+177
+U32
+1
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/DataOut Driver/DataOut Format/averagingDemux/Constant/Value
+/
+
+178
+U32
+2
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/Gate Driver/ehsCpuGates/gates/send8Gates_00/toogleload/Value
+/
+
+179
+U32
+1
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/Gate Driver/ehsCpuGates/gates/send8Gates_00/lastdata/Value
+/
+
+180
+U32
+1
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/LoadIn Driver/Constant5/Value
+/
+
+181
+U32
+10
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/LoadIn eHS Status/setInitialResetDone/Constant/Value
+/
+
+182
+U8
+1
+SM_Controller/eHS1/eHSDrivers/addon_drivers_1/LoadIn eHS Status/Data Store Memory/InitialValue
+/
+
+183
+U8
+1

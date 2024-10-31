@@ -1,0 +1,3587 @@
+{
+  "version": "2.0",
+  "clock_period": "5e-09",
+  "max_count_selected_signals": "32",
+  "probes": [
+    {
+      "probeName": "Analog Inputs_1B",
+      "probeFullName": "fpga_model_cw/Inputs/AnalogIn/AIn Group 1B/IO block/io_block/AIn_Muxed_External/Analog Inputs",
+      "probeType": "AIn_Muxed_External",
+      "probeParentReferenceBlock": "rtxsg_analog_io_base_blocks_lib/AIn_Muxed_External",
+      "probeBaseAddress": "0",
+      "SlotNumber": "1",
+      "Side": "B",
+      "Signals": [
+        {
+          "Name": "Ch00",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "10",
+          "ByteOffset": "0",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch01",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "10",
+          "ByteOffset": "2",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch02",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "10",
+          "ByteOffset": "4",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch03",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "10",
+          "ByteOffset": "6",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch04",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "10",
+          "ByteOffset": "8",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch05",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "10",
+          "ByteOffset": "10",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch06",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "10",
+          "ByteOffset": "12",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch07",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "10",
+          "ByteOffset": "14",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch08",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "10",
+          "ByteOffset": "16",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch09",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "10",
+          "ByteOffset": "18",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch10",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "10",
+          "ByteOffset": "20",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch11",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "10",
+          "ByteOffset": "22",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch12",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "10",
+          "ByteOffset": "24",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch13",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "10",
+          "ByteOffset": "26",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch14",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "10",
+          "ByteOffset": "28",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch15",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "10",
+          "ByteOffset": "30",
+          "BitOffset": "0",
+          "Selected": false
+        }
+      ]
+    },
+    {
+      "probeName": "Digital Inputs_2A",
+      "probeFullName": "fpga_model_cw/Inputs/DigitalIn/DIn Group 2A/IO block/io_block/DIn_OP5210_Muxed_External/Digital Inputs",
+      "probeType": "DIn_OP5210_Muxed_External",
+      "probeParentReferenceBlock": "rtxsg_digital_io_base_blocks_lib/DIn_OP5210_Muxed_External",
+      "probeBaseAddress": "256",
+      "SlotNumber": "2",
+      "Side": "A",
+      "Signals": [
+        {
+          "Name": "Ch00",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch01",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "1",
+          "Selected": false
+        },
+        {
+          "Name": "Ch02",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "2",
+          "Selected": false
+        },
+        {
+          "Name": "Ch03",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "3",
+          "Selected": false
+        },
+        {
+          "Name": "Ch04",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "4",
+          "Selected": false
+        },
+        {
+          "Name": "Ch05",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "5",
+          "Selected": false
+        },
+        {
+          "Name": "Ch06",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "6",
+          "Selected": false
+        },
+        {
+          "Name": "Ch07",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "7",
+          "Selected": false
+        },
+        {
+          "Name": "Ch08",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch09",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "1",
+          "Selected": false
+        },
+        {
+          "Name": "Ch10",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "2",
+          "Selected": false
+        },
+        {
+          "Name": "Ch11",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "3",
+          "Selected": false
+        },
+        {
+          "Name": "Ch12",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "4",
+          "Selected": false
+        },
+        {
+          "Name": "Ch13",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "5",
+          "Selected": false
+        },
+        {
+          "Name": "Ch14",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "6",
+          "Selected": false
+        },
+        {
+          "Name": "Ch15",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "7",
+          "Selected": false
+        },
+        {
+          "Name": "Ch16",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch17",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "1",
+          "Selected": false
+        },
+        {
+          "Name": "Ch18",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "2",
+          "Selected": false
+        },
+        {
+          "Name": "Ch19",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "3",
+          "Selected": false
+        },
+        {
+          "Name": "Ch20",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "4",
+          "Selected": false
+        },
+        {
+          "Name": "Ch21",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "5",
+          "Selected": false
+        },
+        {
+          "Name": "Ch22",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "6",
+          "Selected": false
+        },
+        {
+          "Name": "Ch23",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "7",
+          "Selected": false
+        },
+        {
+          "Name": "Ch24",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch25",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "1",
+          "Selected": false
+        },
+        {
+          "Name": "Ch26",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "2",
+          "Selected": false
+        },
+        {
+          "Name": "Ch27",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "3",
+          "Selected": false
+        },
+        {
+          "Name": "Ch28",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "4",
+          "Selected": false
+        },
+        {
+          "Name": "Ch29",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "5",
+          "Selected": false
+        },
+        {
+          "Name": "Ch30",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "6",
+          "Selected": false
+        },
+        {
+          "Name": "Ch31",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "7",
+          "Selected": false
+        }
+      ]
+    },
+    {
+      "probeName": "Digital Inputs_4A",
+      "probeFullName": "fpga_model_cw/Inputs/DigitalIn/DIn Group 4A/IO block/io_block/DIn_OP5210_Muxed_External/Digital Inputs",
+      "probeType": "DIn_OP5210_Muxed_External",
+      "probeParentReferenceBlock": "rtxsg_digital_io_base_blocks_lib/DIn_OP5210_Muxed_External",
+      "probeBaseAddress": "512",
+      "SlotNumber": "4",
+      "Side": "A",
+      "Signals": [
+        {
+          "Name": "Ch00",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch01",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "1",
+          "Selected": false
+        },
+        {
+          "Name": "Ch02",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "2",
+          "Selected": false
+        },
+        {
+          "Name": "Ch03",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "3",
+          "Selected": false
+        },
+        {
+          "Name": "Ch04",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "4",
+          "Selected": false
+        },
+        {
+          "Name": "Ch05",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "5",
+          "Selected": false
+        },
+        {
+          "Name": "Ch06",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "6",
+          "Selected": false
+        },
+        {
+          "Name": "Ch07",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "7",
+          "Selected": false
+        },
+        {
+          "Name": "Ch08",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch09",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "1",
+          "Selected": false
+        },
+        {
+          "Name": "Ch10",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "2",
+          "Selected": false
+        },
+        {
+          "Name": "Ch11",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "3",
+          "Selected": false
+        },
+        {
+          "Name": "Ch12",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "4",
+          "Selected": false
+        },
+        {
+          "Name": "Ch13",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "5",
+          "Selected": false
+        },
+        {
+          "Name": "Ch14",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "6",
+          "Selected": false
+        },
+        {
+          "Name": "Ch15",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "7",
+          "Selected": false
+        },
+        {
+          "Name": "Ch16",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch17",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "1",
+          "Selected": false
+        },
+        {
+          "Name": "Ch18",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "2",
+          "Selected": false
+        },
+        {
+          "Name": "Ch19",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "3",
+          "Selected": false
+        },
+        {
+          "Name": "Ch20",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "4",
+          "Selected": false
+        },
+        {
+          "Name": "Ch21",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "5",
+          "Selected": false
+        },
+        {
+          "Name": "Ch22",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "6",
+          "Selected": false
+        },
+        {
+          "Name": "Ch23",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "7",
+          "Selected": false
+        },
+        {
+          "Name": "Ch24",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch25",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "1",
+          "Selected": false
+        },
+        {
+          "Name": "Ch26",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "2",
+          "Selected": false
+        },
+        {
+          "Name": "Ch27",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "3",
+          "Selected": false
+        },
+        {
+          "Name": "Ch28",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "4",
+          "Selected": false
+        },
+        {
+          "Name": "Ch29",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "5",
+          "Selected": false
+        },
+        {
+          "Name": "Ch30",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "6",
+          "Selected": false
+        },
+        {
+          "Name": "Ch31",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "7",
+          "Selected": false
+        }
+      ]
+    },
+    {
+      "probeName": "Generic_Machine",
+      "probeFullName": "fpga_model_cw/Motors/Generic_Machine",
+      "probeType": "Custom",
+      "probeParentReferenceBlock": "Custom",
+      "probeBaseAddress": "768",
+      "Signals": [
+        {
+          "Name": "v_q_stator_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "0",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "v_d_stator_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "4",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "v_q_rotor_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "8",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "v_d_rotor_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "12",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "flux_q_stator_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "16",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "flux_d_stator_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "20",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "flux_q_rotor_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "24",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "flux_d_rotor_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "28",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_q_stator_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "32",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_d_stator_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "36",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_q_rotor_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "40",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_d_rotor_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "44",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_a_stator_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "48",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_b_stator_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "52",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_c_stator_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "56",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_a_rotor_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "60",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_b_rotor_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "64",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_c_rotor_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "68",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "torque_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "72",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "speed_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "76",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "thetamec_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "80",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "sin_res_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "84",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "cos_res_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "88",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Carrier_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "92",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "v_q_stator_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "96",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "v_d_stator_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "100",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "v_q_rotor_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "104",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "v_d_rotor_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "108",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "flux_q_stator_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "112",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "flux_d_stator_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "116",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "flux_q_rotor_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "120",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "flux_d_rotor_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "124",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_q_stator_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "128",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_d_stator_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "132",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_q_rotor_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "136",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_d_rotor_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "140",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_a_stator_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "144",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_b_stator_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "148",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_c_stator_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "152",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_a_rotor_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "156",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_b_rotor_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "160",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_c_rotor_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "164",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "torque_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "168",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "speed_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "172",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "thetamec_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "176",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "sin_res_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "180",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "cos_res_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "184",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Carrier_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "188",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "v_q_stator_2",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "192",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "v_d_stator_2",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "196",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "v_q_rotor_2",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "200",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "v_d_rotor_2",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "204",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "flux_q_stator_2",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "208",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "flux_d_stator_2",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "212",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "flux_q_rotor_2",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "216",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "flux_d_rotor_2",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "220",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_q_stator_2",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "224",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_d_stator_2",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "228",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_q_rotor_2",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "232",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_d_rotor_2",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "236",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_a_stator_2",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "240",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_b_stator_2",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "244",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_c_stator_2",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "248",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_a_rotor_2",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "252",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_b_rotor_2",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "256",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_c_rotor_2",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "260",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "torque_2",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "264",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "speed_2",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "268",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "thetamec_2",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "272",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "sin_res_2",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "276",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "cos_res_2",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "280",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Carrier_2",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "284",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "v_q_stator_3",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "288",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "v_d_stator_3",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "292",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "v_q_rotor_3",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "296",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "v_d_rotor_3",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "300",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "flux_q_stator_3",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "304",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "flux_d_stator_3",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "308",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "flux_q_rotor_3",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "312",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "flux_d_rotor_3",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "316",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_q_stator_3",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "320",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_d_stator_3",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "324",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_q_rotor_3",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "328",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_d_rotor_3",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "332",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_a_stator_3",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "336",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_b_stator_3",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "340",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_c_stator_3",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "344",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_a_rotor_3",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "348",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_b_rotor_3",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "352",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "i_c_rotor_3",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "356",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "torque_3",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "360",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "speed_3",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "364",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "thetamec_3",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "368",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "sin_res_3",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "372",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "cos_res_3",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "376",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Carrier_3",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "380",
+          "BitOffset": "0",
+          "Selected": false
+        }
+      ]
+    },
+    {
+      "probeName": "PMSM_VDQ",
+      "probeFullName": "fpga_model_cw/Motors/PMSM_VDQ",
+      "probeType": "Custom",
+      "probeParentReferenceBlock": "Custom",
+      "probeBaseAddress": "1024",
+      "Signals": [
+        {
+          "Name": "ia_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "0",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "ib_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "4",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "ic_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "8",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "vaavg_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "12",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "vbavg_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "16",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "vcavg_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "20",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "P_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "24",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Q_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "28",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "id_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "32",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "iq_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "36",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "thetamec_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "40",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "thetaelec_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "44",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "torque_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "48",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "sin_res_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "52",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "cos_res_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "56",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "car_res_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "60",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "theta_sensor_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "64",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "speed_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "68",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "total_torque_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "72",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "back_emf_a_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "76",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "back_emf_b_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "80",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "back_emf_c_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "84",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "ia_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "88",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "ib_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "92",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "ic_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "96",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "vaavg_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "100",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "vbavg_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "104",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "vcavg_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "108",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "P_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "112",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Q_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "116",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "id_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "120",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "iq_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "124",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "thetamec_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "128",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "thetaelec_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "132",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "torque_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "136",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "sin_res_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "140",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "cos_res_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "144",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "car_res_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "148",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "theta_sensor_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "152",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "speed_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "156",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "total_torque_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "160",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "back_emf_a_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "164",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "back_emf_b_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "168",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "back_emf_c_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "172",
+          "BitOffset": "0",
+          "Selected": false
+        }
+      ]
+    },
+    {
+      "probeName": "PMSM_VDQ1",
+      "probeFullName": "fpga_model_cw/Motors/PMSM_VDQ1",
+      "probeType": "Custom",
+      "probeParentReferenceBlock": "Custom",
+      "probeBaseAddress": "1280",
+      "Signals": [
+        {
+          "Name": "ia_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "0",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "ib_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "4",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "ic_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "8",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "vaavg_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "12",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "vbavg_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "16",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "vcavg_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "20",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "P_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "24",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Q_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "28",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "id_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "32",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "iq_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "36",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "thetamec_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "40",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "thetaelec_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "44",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "torque_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "48",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "sin_res_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "52",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "cos_res_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "56",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "car_res_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "60",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "theta_sensor_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "64",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "speed_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "68",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "total_torque_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "72",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "back_emf_a_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "76",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "back_emf_b_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "80",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "back_emf_c_0",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "84",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "ia_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "88",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "ib_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "92",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "ic_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "96",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "vaavg_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "100",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "vbavg_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "104",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "vcavg_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "108",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "P_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "112",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Q_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "116",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "id_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "120",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "iq_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "124",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "thetamec_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "128",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "thetaelec_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "132",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "torque_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "136",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "sin_res_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "140",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "cos_res_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "144",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "car_res_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "148",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "theta_sensor_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "152",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "speed_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "156",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "total_torque_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "160",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "back_emf_a_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "164",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "back_emf_b_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "168",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "back_emf_c_1",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "172",
+          "BitOffset": "0",
+          "Selected": false
+        }
+      ]
+    },
+    {
+      "probeName": "Analog Outputs_1A",
+      "probeFullName": "fpga_model_cw/Outputs/AnalogOut/IO block1/io_block/AOut_Muxed_External1/Analog Outputs",
+      "probeType": "AOut_Muxed_External",
+      "probeParentReferenceBlock": "rtxsg_analog_io_base_blocks_lib/AOut_Muxed_External",
+      "probeBaseAddress": "1536",
+      "SlotNumber": "1",
+      "Side": "A",
+      "Signals": [
+        {
+          "Name": "Ch00",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "0",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch01",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "2",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch02",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "4",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch03",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "6",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch04",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "8",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch05",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "10",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch06",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "12",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch07",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "14",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch08",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "16",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch09",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "18",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch10",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "20",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch11",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "22",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch12",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "24",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch13",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "26",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch14",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "28",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch15",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "30",
+          "BitOffset": "0",
+          "Selected": false
+        }
+      ]
+    },
+    {
+      "probeName": "Analog Outputs_3B",
+      "probeFullName": "fpga_model_cw/Outputs/AnalogOut/IO block2/io_block/AOut_Muxed_External1/Analog Outputs",
+      "probeType": "AOut_Muxed_External",
+      "probeParentReferenceBlock": "rtxsg_analog_io_base_blocks_lib/AOut_Muxed_External",
+      "probeBaseAddress": "1792",
+      "SlotNumber": "3",
+      "Side": "B",
+      "Signals": [
+        {
+          "Name": "Ch00",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "0",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch01",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "2",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch02",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "4",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch03",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "6",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch04",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "8",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch05",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "10",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch06",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "12",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch07",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "14",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch08",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "16",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch09",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "18",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch10",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "20",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch11",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "22",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch12",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "24",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch13",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "26",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch14",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "28",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch15",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "30",
+          "BitOffset": "0",
+          "Selected": false
+        }
+      ]
+    },
+    {
+      "probeName": "Analog Outputs_3A",
+      "probeFullName": "fpga_model_cw/Outputs/AnalogOut/IO block3/io_block/AOut_Muxed_External1/Analog Outputs",
+      "probeType": "AOut_Muxed_External",
+      "probeParentReferenceBlock": "rtxsg_analog_io_base_blocks_lib/AOut_Muxed_External",
+      "probeBaseAddress": "2048",
+      "SlotNumber": "3",
+      "Side": "A",
+      "Signals": [
+        {
+          "Name": "Ch00",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "0",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch01",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "2",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch02",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "4",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch03",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "6",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch04",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "8",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch05",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "10",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch06",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "12",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch07",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "14",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch08",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "16",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch09",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "18",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch10",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "20",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch11",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "22",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch12",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "24",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch13",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "26",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch14",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "28",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch15",
+          "Format": "Signed",
+          "NbBits": "16",
+          "BinPt": "11",
+          "ByteOffset": "30",
+          "BitOffset": "0",
+          "Selected": false
+        }
+      ]
+    },
+    {
+      "probeName": "Digital Outputs_2B",
+      "probeFullName": "fpga_model_cw/Outputs/DigitalOut/DOut Group 2B/OP5142 // ML60x // OP716x IO block2/io_block/DOut_OP5210_Muxed_External/Digital Outputs",
+      "probeType": "DOut_OP5210_Muxed_External",
+      "probeParentReferenceBlock": "rtxsg_digital_io_base_blocks_lib/DOut_OP5210_Muxed_External",
+      "probeBaseAddress": "2304",
+      "SlotNumber": "2",
+      "Side": "B",
+      "Signals": [
+        {
+          "Name": "Ch00",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch01",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "1",
+          "Selected": false
+        },
+        {
+          "Name": "Ch02",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "2",
+          "Selected": false
+        },
+        {
+          "Name": "Ch03",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "3",
+          "Selected": false
+        },
+        {
+          "Name": "Ch04",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "4",
+          "Selected": false
+        },
+        {
+          "Name": "Ch05",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "5",
+          "Selected": false
+        },
+        {
+          "Name": "Ch06",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "6",
+          "Selected": false
+        },
+        {
+          "Name": "Ch07",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "7",
+          "Selected": false
+        },
+        {
+          "Name": "Ch08",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch09",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "1",
+          "Selected": false
+        },
+        {
+          "Name": "Ch10",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "2",
+          "Selected": false
+        },
+        {
+          "Name": "Ch11",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "3",
+          "Selected": false
+        },
+        {
+          "Name": "Ch12",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "4",
+          "Selected": false
+        },
+        {
+          "Name": "Ch13",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "5",
+          "Selected": false
+        },
+        {
+          "Name": "Ch14",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "6",
+          "Selected": false
+        },
+        {
+          "Name": "Ch15",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "7",
+          "Selected": false
+        },
+        {
+          "Name": "Ch16",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch17",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "1",
+          "Selected": false
+        },
+        {
+          "Name": "Ch18",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "2",
+          "Selected": false
+        },
+        {
+          "Name": "Ch19",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "3",
+          "Selected": false
+        },
+        {
+          "Name": "Ch20",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "4",
+          "Selected": false
+        },
+        {
+          "Name": "Ch21",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "5",
+          "Selected": false
+        },
+        {
+          "Name": "Ch22",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "6",
+          "Selected": false
+        },
+        {
+          "Name": "Ch23",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "7",
+          "Selected": false
+        },
+        {
+          "Name": "Ch24",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch25",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "1",
+          "Selected": false
+        },
+        {
+          "Name": "Ch26",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "2",
+          "Selected": false
+        },
+        {
+          "Name": "Ch27",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "3",
+          "Selected": false
+        },
+        {
+          "Name": "Ch28",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "4",
+          "Selected": false
+        },
+        {
+          "Name": "Ch29",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "5",
+          "Selected": false
+        },
+        {
+          "Name": "Ch30",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "6",
+          "Selected": false
+        },
+        {
+          "Name": "Ch31",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "7",
+          "Selected": false
+        }
+      ]
+    },
+    {
+      "probeName": "Digital Outputs_4B",
+      "probeFullName": "fpga_model_cw/Outputs/DigitalOut/DOut Group 4B/OP5142 // ML60x // OP716x IO block1/io_block/DOut_OP5210_Muxed_External/Digital Outputs",
+      "probeType": "DOut_OP5210_Muxed_External",
+      "probeParentReferenceBlock": "rtxsg_digital_io_base_blocks_lib/DOut_OP5210_Muxed_External",
+      "probeBaseAddress": "2560",
+      "SlotNumber": "4",
+      "Side": "B",
+      "Signals": [
+        {
+          "Name": "Ch00",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch01",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "1",
+          "Selected": false
+        },
+        {
+          "Name": "Ch02",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "2",
+          "Selected": false
+        },
+        {
+          "Name": "Ch03",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "3",
+          "Selected": false
+        },
+        {
+          "Name": "Ch04",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "4",
+          "Selected": false
+        },
+        {
+          "Name": "Ch05",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "5",
+          "Selected": false
+        },
+        {
+          "Name": "Ch06",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "6",
+          "Selected": false
+        },
+        {
+          "Name": "Ch07",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "0",
+          "BitOffset": "7",
+          "Selected": false
+        },
+        {
+          "Name": "Ch08",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch09",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "1",
+          "Selected": false
+        },
+        {
+          "Name": "Ch10",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "2",
+          "Selected": false
+        },
+        {
+          "Name": "Ch11",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "3",
+          "Selected": false
+        },
+        {
+          "Name": "Ch12",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "4",
+          "Selected": false
+        },
+        {
+          "Name": "Ch13",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "5",
+          "Selected": false
+        },
+        {
+          "Name": "Ch14",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "6",
+          "Selected": false
+        },
+        {
+          "Name": "Ch15",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "1",
+          "BitOffset": "7",
+          "Selected": false
+        },
+        {
+          "Name": "Ch16",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch17",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "1",
+          "Selected": false
+        },
+        {
+          "Name": "Ch18",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "2",
+          "Selected": false
+        },
+        {
+          "Name": "Ch19",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "3",
+          "Selected": false
+        },
+        {
+          "Name": "Ch20",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "4",
+          "Selected": false
+        },
+        {
+          "Name": "Ch21",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "5",
+          "Selected": false
+        },
+        {
+          "Name": "Ch22",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "6",
+          "Selected": false
+        },
+        {
+          "Name": "Ch23",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "2",
+          "BitOffset": "7",
+          "Selected": false
+        },
+        {
+          "Name": "Ch24",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "Ch25",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "1",
+          "Selected": false
+        },
+        {
+          "Name": "Ch26",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "2",
+          "Selected": false
+        },
+        {
+          "Name": "Ch27",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "3",
+          "Selected": false
+        },
+        {
+          "Name": "Ch28",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "4",
+          "Selected": false
+        },
+        {
+          "Name": "Ch29",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "5",
+          "Selected": false
+        },
+        {
+          "Name": "Ch30",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "6",
+          "Selected": false
+        },
+        {
+          "Name": "Ch31",
+          "Format": "Unsigned",
+          "NbBits": "1",
+          "BinPt": "0",
+          "ByteOffset": "3",
+          "BitOffset": "7",
+          "Selected": false
+        }
+      ]
+    },
+    {
+      "probeName": "eHS Probe",
+      "probeFullName": "fpga_model_cw/eHS Gen4/eHS FPGA Scope Probe/eHS Probe",
+      "probeType": "eHS",
+      "probeParentReferenceBlock": "efs_ehs_lib/eHS FPGA Scope Probe",
+      "probeBaseAddress": "2816",
+      "Signals": [
+        {
+          "Name": "2Lvl_Ia",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "0",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "2Lvl_Ib",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "4",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "2Lvl_Ic",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "8",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "2Lvl_Va",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "12",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "2Lvl_Vb",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "16",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "2Lvl_Vc",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "20",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "boost_I",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "24",
+          "BitOffset": "0",
+          "Selected": false
+        },
+        {
+          "Name": "boost_V",
+          "Format": "Float",
+          "NbBits": "32",
+          "MantissaBits": "24",
+          "ByteOffset": "28",
+          "BitOffset": "0",
+          "Selected": false
+        }
+      ]
+    }
+  ]
+}
